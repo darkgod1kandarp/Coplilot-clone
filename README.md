@@ -9,6 +9,9 @@ This plugin integrates Ollama's local LLM API with Vim, enabling AI-powered code
 - **Session Context**: Maintains conversation history and cached snippets for context-aware completions.
 - **Model Listing**: View available Ollama models and select active model.
 
+## Demo Video
+[Watch a demo on YouTube](https://youtu.be/BLNidD2BSEM)
+
 ## Requirements
 - Python 3
 - Vim with Python support
@@ -16,18 +19,18 @@ This plugin integrates Ollama's local LLM API with Vim, enabling AI-powered code
 
 ## Installation
 1. Clone or copy this repository into your Vim configuration directory:
-   ```sh
-   git clone <repo-url> ~/.vim
-   ```
+  ```sh
+  git clone <repo-url> ~/.vim
+  ```
 2. Ensure `ollama_complete.py` is in your `autoload/` directory and `ollama.vim` in your `plugin/` directory.
 3. Start the Ollama server:
-   ```sh
-   ollama serve
-   ```
+  ```sh
+  ollama serve
+  ```
 4. (Optional) Pull desired models:
-   ```sh
-   ollama pull deepseek-coder:6.7b
-   ```
+  ```sh
+  ollama pull deepseek-coder:6.7b
+  ```
 
 ## Usage
 - **Code Completion**: Place cursor where you want completion and run:
@@ -72,3 +75,4 @@ MIT License
 ## Credits
 - [Ollama](https://ollama.com/) for the LLM API
 - Inspired by open-source Vim and AI tooling
+
