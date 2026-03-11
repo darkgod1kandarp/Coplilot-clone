@@ -76,3 +76,18 @@ MIT License
 - [Ollama](https://ollama.com/) for the LLM API
 - Inspired by open-source Vim and AI tooling
 
+## Featured Projects
+
+### Multi-Agent Generation System
+**Repository:** [darkgod1kandarp/multi_agent_system](https://github.com/darkgod1kandarp/multi_agent_system) *(in progress)*
+
+An AI-powered system that automatically generates a tailored set of multi-agents by understanding business requirements. Given a business owner's prompt or website URL, the system:
+
+- **Crawls** the business website using FireCrawl to extract business context
+- **Embeds** the content into a Qdrant vector database for semantic retrieval
+- **Detects** the industry and business domain using an LLM
+- **Generates** a suite of specialized agents (e.g., support, sales, logistics) suited to the business
+- **Orchestrates** agent responses via a chat interface, routing queries to the most relevant agent using RAG context
+
+**Tech Stack:** Node.js · Express · Next.js · Qdrant · FireCrawl · LLM (OpenAI-compatible)
+
